@@ -1,0 +1,9 @@
+echo sum of two number
+echo enter number1:
+    read a
+echo enter number2:
+    read b
+sum=$(($a+$b))
+echo sum :$sum
+
+
