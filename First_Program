@@ -1,0 +1,35 @@
+echo sample shell program
+echo enter the name
+read name
+echo enter the class
+read class
+echo enter the roll number
+read number
+echo enter the specification
+read sp
+ 
+echo name :$name
+echo class :$class
+echo roll number :$number
+echo specification :$sp
+
+
+
+/*
+output
+------
+echo sample shell program
+echo enter the name
+read name
+echo enter the class
+read class
+echo enter the roll number
+read number
+echo enter the specification
+read sp
+ 
+echo name :$name
+echo class :$class
+echo roll number :$number
+echo specification :$sp
+*/
