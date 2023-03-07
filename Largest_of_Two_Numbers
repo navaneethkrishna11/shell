@@ -1,0 +1,12 @@
+echo Largest of two number
+
+echo "enter number1:" 
+read a
+echo "enter number2:"
+read b
+if(($a > $b))
+then
+echo largest :$a
+else
+echo largest :$b
+fi
