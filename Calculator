@@ -1,0 +1,29 @@
+echo Simple Calculator
+
+echo enter number 1 :
+read a
+echo enter number 2 :
+read b
+echo "choose
+             1.add
+             2.sub
+             3.pdt
+             4.div"
+             
+read op
+
+case $op in
+1) rs=$(($a+$b))
+   echo "sum :$rs"
+;;
+2)rs=$(($a+$b))
+echo sub :$rs
+;;
+3)rs=$(($a*$b))
+echo pdt :$rs
+;;
+4)rs=$(($a/$b))
+echo div: $rs
+;;
+
+esac
